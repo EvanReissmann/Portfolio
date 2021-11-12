@@ -1,58 +1,85 @@
-html {
-    background-color: black;
-    
-}
+
 body {
-    background-color: white;
+  background-color: #494b45;
+  width: 100%;
+  margin: auto;
 }
-
+.body-elements{
+    margin: 0 30px 0 30px;
+    padding: 70px 0 25px 0;
+}
+.logos {
+    text-align: center;
+}
 header {
-   text-align: right;
-   padding: 20px 35px;
-
+    display: flex;
+    justify-content: space-between;
+    background-color: #e6e3eb;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 5;
+    flex-wrap: wrap;
+}
+header h1 {
+    margin-left: 25px;
 }
 header nav {
-    float: right;
-    margin: 7px 0;
+    margin-right: 25px;
+    flex-wrap: nowrap;
 }
 header nav ul li {
-    display: inline;
+  display: inline;
 }
 header nav ul li a {
-    margin: 0px 30px;
-    font-weight: lighter;
-    font-size: 22px;
+  margin: 0px 30px;
+  font-weight: lighter;
+  font-size: 22px;
+  color: blue;
+  text-decoration: none;
+}
+header nav ul li a:hover{
+    color: darkblue;
 }
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: left;
 }
 
 p {
-    font-family: cursive;
-    font-weight: bolder;
-    text-align: center;
-    font-size: medium;
+  font-family: cursive;
+  font-weight: bolder;
+  text-align: center;
+  font-size: medium;
 }
 
 .flex-container {
-    height: auto;
-    display: flex;
+  display: flex;
+  flex-direction: column;
 }
 
 .hover-element {
-    opacity: 100%;
+  opacity: 70%;
+  transition: transform .2s;
 }
 
 .hover-element:hover {
-    opacity: 100%;
+  opacity: 100%;
+  transform: scale(1.2);
 }
 
 img {
-    width: 80px;
-    height: auto;
+  width: 150px;
+  height: auto;
 }
 
 .about-me {
-    text-align: right;
+  text-align: right;
+}
+
+.project-element {
+    padding: 10px 10px 10px 10px;
+}
+.project-flex {
+    display: flex;
 }
