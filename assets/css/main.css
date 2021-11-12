@@ -5,3 +5,54 @@ html {
 body {
     background-color: white;
 }
+
+header {
+   text-align: right;
+   padding: 20px 35px;
+
+}
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    margin: 0px 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+p {
+    font-family: cursive;
+    font-weight: bolder;
+    text-align: center;
+    font-size: medium;
+}
+
+.flex-container {
+    height: auto;
+    display: flex;
+}
+
+.hover-element {
+    opacity: 100%;
+}
+
+.hover-element:hover {
+    opacity: 100%;
+}
+
+img {
+    width: 80px;
+    height: auto;
+}
+
+.about-me {
+    text-align: right;
+}
