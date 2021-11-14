@@ -22,4 +22,4 @@ https://evanreissmann.github.io/Portfolio/
 
 ## Screenshot of the page
 
-![Home Page](https://github.com/EvanReissmann/Portfolio/raw/main/img/HomePage.png)
+![Home Page](https://github.com/EvanReissmann/Portfolio/raw/main/assets/img/HomePage.png)
