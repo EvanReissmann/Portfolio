@@ -1,32 +1,31 @@
-
 body {
   background-color: #494b45;
   width: 100%;
   margin: auto;
 }
-.body-elements{
-    margin: 0 30px 0 30px;
-    padding: 70px 0 25px 0;
+.body-elements {
+  margin: 0 30px 0 30px;
+  padding: 70px 0 25px 0;
 }
 .logos {
-    text-align: center;
+  text-align: center;
 }
 header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #e6e3eb;
-    width: 100%;
-    position: fixed;
-    top: 0px;
-    z-index: 5;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e6e3eb;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 5;
+  flex-wrap: wrap;
 }
 header h1 {
-    margin-left: 25px;
+  margin-left: 25px;
 }
 header nav {
-    margin-right: 25px;
-    flex-wrap: nowrap;
+  margin-right: 25px;
+  flex-wrap: nowrap;
 }
 header nav ul li {
   display: inline;
@@ -38,8 +37,8 @@ header nav ul li a {
   color: blue;
   text-decoration: none;
 }
-header nav ul li a:hover{
-    color: darkblue;
+header nav ul li a:hover {
+  color: darkblue;
 }
 h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -60,7 +59,7 @@ p {
 
 .hover-element {
   opacity: 70%;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 .hover-element:hover {
@@ -78,8 +77,8 @@ img {
 }
 
 .project-element {
-    padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
 }
 .project-flex {
-    display: flex;
+  display: flex;
 }
